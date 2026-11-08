@@ -37,12 +37,13 @@
   },
   "o4_redteam": {
     "flagged": 30,
-    "with_3_reasons": 30
+    "with_3_reasons": 30,
+    "pct": 100.0
   },
   "o5": {
     "requests": 1000,
-    "median_ms": 6.8,
-    "p95_ms": 9.6,
-    "max_ms": 88.9
+    "median_ms": 4.5,
+    "p95_ms": 7.7,
+    "max_ms": 60.3
   }
 }
