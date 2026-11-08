@@ -1,0 +1,48 @@
+{
+  "o1": {
+    "sms_raw": 5574,
+    "sms_deduplicated": 5171,
+    "local": 120,
+    "total": 5291,
+    "train": 4232,
+    "test": 1059
+  },
+  "o2": {
+    "recall": 0.965,
+    "precision": 0.965,
+    "f1": 0.965,
+    "threshold": 0.5,
+    "n_test": 1059,
+    "scam_in_test": 143,
+    "local_n": 24,
+    "local_recall": 0.9167,
+    "local_precision": 0.9167
+  },
+  "o3": {
+    "url_features": 10
+  },
+  "o4_test": {
+    "flagged": 146,
+    "with_3_reasons": 146,
+    "pct": 100.0
+  },
+  "o6": {
+    "scams": 30,
+    "flagged": 30,
+    "flagged_pct": 100.0,
+    "strict_scam": 29,
+    "strict_pct": 96.7,
+    "controls": 15,
+    "controls_wrongly_flagged": 0
+  },
+  "o4_redteam": {
+    "flagged": 30,
+    "with_3_reasons": 30
+  },
+  "o5": {
+    "requests": 1000,
+    "median_ms": 6.8,
+    "p95_ms": 9.6,
+    "max_ms": 88.9
+  }
+}
